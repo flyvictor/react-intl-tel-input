@@ -100,7 +100,7 @@
   "scripts": {
     "prepare": "npm run clean && node scripts/build.js",
     "build": "npm run clean && node scripts/build.js",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "start": "start-storybook -p 4000 -c .storybook",
     "deploy": "storybook-to-ghpages --ci",
     "lint-staged": "lint-staged",
