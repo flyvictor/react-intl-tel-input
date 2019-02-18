@@ -98,6 +98,7 @@
     "webpack-dev-server": "^3.1.10"
   },
   "scripts": {
+    "postinstall": "npm run clean && node scripts/build.js",
     "build": "npm run clean && node scripts/build.js",
     "clean": "rimraf dist",
     "start": "start-storybook -p 4000 -c .storybook",
@@ -108,7 +109,6 @@
     "test": "TZ=Asia/Taipei node scripts/test.js --env=jsdom",
     "coverage": "yarn run test -- --coverage",
     "coveralls": "NODE_ENV=development cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "postinstall": "npm run clean && node scripts/build.js",
     "prettier:all": "prettier --write 'src/components/**/*.js' 'config/**/*.js'"
   },
   "lint-staged": {
