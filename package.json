@@ -101,7 +101,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "asdasdasdsadasdsad && npm run clean && node scripts/build.js",
+    "prepublish": "npm run clean && node scripts/build.js",
     "build": "npm run clean && node scripts/build.js",
     "clean": "rimraf dist",
     "start": "start-storybook -p 4000 -c .storybook",
