@@ -1,14 +1,5 @@
-# React-Intl-Tel-Input
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Build Status](https://travis-ci.org/patw0929/react-intl-tel-input.svg)](https://travis-ci.org/patw0929/react-intl-tel-input)
-[![npm version](https://badge.fury.io/js/react-intl-tel-input.svg)](http://badge.fury.io/js/react-intl-tel-input)
-[![Coverage Status](https://coveralls.io/repos/github/patw0929/react-intl-tel-input/badge.svg?branch=master)](https://coveralls.io/github/patw0929/react-intl-tel-input?branch=master)
-[![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)]()
-
-[![NPM](https://nodei.co/npm/react-intl-tel-input.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-intl-tel-input/)
-
-Rewrite [International Telephone Input](https://github.com/jackocnr/intl-tel-input) in React.js.
+# Vic-React-Intl-Tel-Input
+This is a fork of https://github.com/patw0929/reactintl-tel-input.
 
 
 ## Collaborators Wanted!
@@ -21,8 +12,6 @@ Please let me know. 🙌
 I hope we can maintain the project together, and make this project better! 💪
 
 ## Demo & Examples
-
-Live demo: [patw0929.github.io/react-intl-tel-input](https://patw0929.github.io/react-intl-tel-input/)
 
 To build the examples locally, run:
 
@@ -70,11 +59,6 @@ import 'react-intl-tel-input/dist/main.css';
 />
 ```
 
-### Properties
-
-Please see the [Demo Page](https://patw0929.github.io/react-intl-tel-input/)
-
-
 ## Development (`src` and the build process)
 
 **NOTE:** The source code for the component is in `src`. A UMD bundle is also built to `dist`, which can be included without the need for any build system.
@@ -111,12 +95,12 @@ yarn run lint
 
 ## Inspired by
 
-[International Telephone Input](https://github.com/jackocnr/intl-tel-input) - [@jackocnr](https://github.com/jackocnr)
+[International Telephone Input](https://github.com/patw0929/react-intl-tel-input)
 
 
 ## License
 
 MIT
 
-Copyright (c) 2015-2019 patw.
+Copyright (c) 2015-2019.
 
