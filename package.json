@@ -97,6 +97,9 @@
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-dev-server": "^3.1.10"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "npm run clean && node scripts/build.js",
     "build": "npm run clean && node scripts/build.js",
