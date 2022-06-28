@@ -513,7 +513,7 @@ class IntlTelInput extends Component {
   };
 
   initRequests = () => {
-    import('libphonenumber-js-utils')
+    import('./libphonenumber-utils')
       .then(() => {
         this.loadUtils();
         this.utilsScriptDeferred.resolve();

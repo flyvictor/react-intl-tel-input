@@ -1,6 +1,6 @@
 {
   "name": "vic-react-intl-tel-input",
-  "version": "7.0.1",
+  "version": "7.1.0",
   "description": "Telephone input component. Rewrite intl-tel-input in React.js.",
   "author": "patw",
   "keywords": [
@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "libphonenumber-js-utils": "^8.10.2",
     "prop-types": "^15.6.1",
     "react-style-proptype": "^3.0.0",
     "underscore.deferred": "^0.4.0"
@@ -157,7 +156,7 @@
     "testRegex": "/__tests__/.*\\.(test|spec)\\.js$"
   },
   "engines": {
-    "node": ">=6.2.2"
+    "node": ">=8.17.0"
   },
   "license": "MIT"
 }

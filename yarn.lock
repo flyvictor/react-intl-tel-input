@@ -7852,10 +7852,6 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-libphonenumber-js-utils@^8.10.2:
-  version "8.10.2"
-  resolved "https://registry.yarnpkg.com/libphonenumber-js-utils/-/libphonenumber-js-utils-8.10.2.tgz#446b223cdbf2509c53b456750ac3320c977264ef"
-
 lint-staged@^3.2.6:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-3.6.1.tgz#24423c8b7bd99d96e15acd1ac8cb392a78e58582"
