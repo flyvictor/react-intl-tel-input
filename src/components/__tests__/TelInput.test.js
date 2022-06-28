@@ -5,6 +5,9 @@ import IntlTelInput from '../IntlTelInput';
 import TelInput from '../TelInput';
 import FlagDropDown from '../FlagDropDown';
 
+
+const initialIntlTelInputUtils = window.intlTelInputUtils;
+
 // eslint-disable-next-line func-names
 describe('TelInput', function() {
   beforeEach(() => {
@@ -25,6 +28,8 @@ describe('TelInput', function() {
         attachTo: document.querySelector('#root'),
       });
     };
+
+    window.intlTelInputUtils = initialIntlTelInputUtils;
   });
 
   it('should set fieldName as "telephone"', () => {

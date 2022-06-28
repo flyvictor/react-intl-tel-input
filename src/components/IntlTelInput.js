@@ -7,6 +7,7 @@ import AllCountries from './AllCountries';
 import FlagDropDown from './FlagDropDown';
 import TelInput from './TelInput';
 import utils from './utils';
+import './libphonenumber-utils';
 import '../styles/intlTelInput.scss';
 
 const mobileUserAgentRegexp = /Android.+Mobile|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
@@ -513,13 +514,6 @@ class IntlTelInput extends Component {
   };
 
   initRequests = () => {
-    import('./libphonenumber-utils')
-      .then(() => {
-        this.loadUtils();
-        this.utilsScriptDeferred.resolve();
-      })
-      .catch(() => 'An error occurred while loading the component');
-
     if (this.tempCountry === 'auto') {
       this.loadAutoCountry();
     } else {
