@@ -163,7 +163,7 @@ module.exports = {
     new webpack.DefinePlugin(env),
     new MiniCssExtractPlugin({
       filename: 'main.css',
-    }),
+    })
   ],
   node: {
     fs: 'empty',

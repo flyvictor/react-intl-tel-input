@@ -569,7 +569,7 @@ class IntlTelInput extends Component {
 
   removeEmptyDialCode = () => {
     const allowEmptyDialCode = this.props.allowEmptyDialCode;
-
+    
     if (!allowEmptyDialCode) {
       const value = this.state.value;
       const startsPlus = value.charAt(0) === '+';
